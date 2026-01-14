@@ -1,22 +1,16 @@
-﻿namespace helloworld;
+﻿namespace projeto;
 
-public class HelloWorld
+public static class Program
 {
     public static void Main(string[] args)
     {
-        // Poligonos poligono = new Poligonos();
-        // poligono.Poligono();
-        //
-        // Cardapio cardapio = new Cardapio();
-        // cardapio.Pedido();
+        // última classe estudada: 
         
-        // Loops loops = new Loops();
-        // loops.While();
-        // loops.DoWhile();
-        // loops.DoWhileUntil0();
-        
-        Tabuada foor = new Tabuada();
-        foor.Tabuadas();
+        Tipos tipos = new Tipos();
+        // tipos.TiposPrimitivos();
+        // tipos.TipoArray();
+        // tipos.TipoList();
+        tipos.TipoDict();
     }
-    
+
 }
